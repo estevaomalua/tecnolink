@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@media(max-width: 600px) {
+   body{
+   header nav{
+        display: none;
+    }
+    .icones{
+        margin: 10px;
+    }
+    .icones:hover{
+    cursor: pointer;
+    transition: 0.2s;  
+    }
+    .sessao1 .sobre .conteiner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sessao1 .sobre .conteiner .text h1{
+        font-size: 1.1em;
+        padding: 10px;
+        margin: 10px;
+       }
+       .sessao1 .sobre .conteiner .text p{
+        font-size: 16px;
+        padding: 0px 10px;
+   
+       }
+       .sessao1 .sobre .conteiner .imagens{
+        padding: 0px 20px;
+        margin: 0px 20px;
+       }
+       .sessao2 .percentagem .conteiner{
+        flex-direction: column;
+    
+       }
+     .sessao2 .percentagem .conteiner .texts{
+            margin: 10px 20px;
+            text-align: center;
+    }
+    .sessao2 .servicos .conteiner {
+        flex-direction: column;
+    }
+    .sessao21 .conteiner{
+        flex-direction: column;
+       text-align: center;
+       align-items: center;
+       padding: 10px;
+             width: 100%;
+    }
+     .sessao21 .conteiner #separo, #separa{
+            width: 100%;
+            margin: 0px 20px;
+          }
+          .sessao22 .conteiner{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+          }
+          .skill .conteiner{
+            flex-direction: column;
+          }
+           .sessao3 .skill .conteiner .itens{
+                 width: 100%;
+                 padding: 10px;
+           }
+           .destaque .conteiner{
+            flex-direction: column;
+           }
+                .destaque .conteiner .texto{
+                    padding: 0px 20px; 
+                }
+   }
+    
+}
